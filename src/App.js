@@ -1,7 +1,7 @@
 
 import './App.css';
 import {Welcome} from './component/Welcome.js'
-import {  useState } from 'react';
+import {useState} from 'react';
 
 
 
