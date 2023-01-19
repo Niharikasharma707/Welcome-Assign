@@ -14,7 +14,7 @@ function App() {
           <div>
             <label> Enter Name :</label>
             <input type = "string" onChange={(event)=> {setName(event.target.value)}}></input>
-            <button onClick={()=>{setData(true)}}>Submit</button>
+            <button onClick={()=>{setData(true)}}>Login</button>
            {
             data ? <Welcome studentName ={name}></Welcome> : null
            }
